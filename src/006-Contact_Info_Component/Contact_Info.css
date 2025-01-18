@@ -1,0 +1,24 @@
+.contact_Info{
+    background-color: #2C3E50;
+
+    .fa-stack{
+
+        &:hover .fa-stack-2x{
+            color: #fff;
+        }
+        &:hover .fa-stack-1x{
+            color: #2C3E50; 
+        }
+    }
+
+    .fa-stack-2x{
+        font-size: 1em;
+        color: transparent;
+        transition: .5s;
+    }
+    .fa-stack-1x{
+        transition: .5s;
+    }
+
+
+}

@@ -1,0 +1,20 @@
+@import url(../main.css);
+.portofolio {
+    h2{
+        color: var(--main_color);
+    }
+    .myStar {
+        .fa-star {
+            color: var(--main_color);
+        }
+
+        ::before {
+            background-color: var(--main_color);
+        }
+
+        ::after {
+            background-color: var(--main_color);
+        }
+    }
+
+}

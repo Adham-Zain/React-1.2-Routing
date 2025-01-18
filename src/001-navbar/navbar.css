@@ -1,0 +1,31 @@
+@import url(../main.css);
+
+.navbar {
+    background-color: var(--main_color);
+    z-index: 99;
+    a {
+        color: var(--main_text_color);
+        text-transform: uppercase;
+        font-size: var(--main_font_size);
+
+        &:hover {
+            color: var(--secondry_color);
+        }
+    }
+    .navbar-brand {
+        color: var(--main_text_color);
+    }
+
+
+    .navbar-nav .nav-link.active {
+        background-color: var(--secondry_color);
+        border-radius: .5rem;
+        padding: .5rem;
+    }
+}
+
+@media (min-width:1000px) {
+    .nav-item {
+        margin-right: .5rem;
+    }
+}

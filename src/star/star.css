@@ -1,0 +1,29 @@
+.myStar{
+    font-size: 2rem;
+    position: relative;
+    display: block;
+    width: fit-content;
+    
+    ::before{
+        content: "";
+        width: 7rem;
+        height: .5rem;
+        background-color: #fff;
+        position: absolute;
+        left: -8rem;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: .5rem 0  0 .5rem;
+    }
+    ::after{
+        content: "";
+        width: 7rem;
+        height: .5rem;
+        background-color: #fff;
+        position: absolute;
+        right: -8rem;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius:  0 .5rem .5rem 0;
+    }
+}

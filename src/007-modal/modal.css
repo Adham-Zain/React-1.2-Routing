@@ -1,0 +1,28 @@
+.my-modal {
+    background-color: rgba(0, 0, 0, 0.8);
+    .fa-xmark {
+        font-size: 3rem;
+        color: #fff;
+        top: 20%;
+        right: 0%;
+        z-index: 20;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+@media (min-width:780px) {
+    .my-modal img {
+        width: 70%;
+    }
+    .my-modal .fa-xmark {
+        top: 20%;
+        right: 20%;
+    }
+}
+@media (min-width:1000px) {
+    .my-modal img {
+        width: 50%;
+    }
+}

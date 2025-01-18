@@ -1,0 +1,25 @@
+@import url(../main.css);
+
+#contactMe button{
+    background-color: var(--secondry_color);
+    transition: .5s;
+    &:focus{
+        background-color:#0a58ca;
+    }
+    &:hover{
+        background-color: var(--secondry_color) !important;
+    }
+
+
+} 
+
+
+#contactMe .myStar{
+    color: var(--main_color);
+    ::before{
+        background-color: var(--main_color);
+    }
+    ::after{
+        background-color: var(--main_color);
+    }
+}

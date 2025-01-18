@@ -1,0 +1,18 @@
+@import url(../main.css);
+
+.home{
+    background-color: var(--secondry_color) ;
+    .content{
+        color: var(--main_text_color);
+        img{
+            width: 25rem;
+        }
+        h1{
+            margin-top: 2rem;
+            font-size: var(--headers_font_size);
+        }
+        p{
+            font-size: var(--main_font_size);
+        }
+    }
+}

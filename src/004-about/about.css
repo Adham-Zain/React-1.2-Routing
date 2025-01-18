@@ -1,0 +1,22 @@
+@import url(../main.css);
+.about{
+    background-color:  var(--secondry_color);
+    color: #fff;
+    .container{
+        height: 75vh;
+        text-align: center;
+        p{
+            font-size: 1.1rem;
+        }
+    }
+}
+
+@media (min-width:780px){
+    .about .container {
+        text-align: left;
+        p{
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+    }
+}
